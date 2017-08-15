@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DB33D05CC144D35BD8714CF /* Pods_RemotifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECCD15B0D9DD04243EDB1C2 /* Pods_RemotifyUITests.framework */; };
+		728C0A7A25B0400AAA78365F /* Pods_Remotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E73E8CEFA5F17861BE04613 /* Pods_Remotify.framework */; };
 		A1123CB21F428A3600D0E3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CB11F428A3600D0E3AA /* AppDelegate.swift */; };
 		A1123CB41F428A3600D0E3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CB31F428A3600D0E3AA /* ViewController.swift */; };
 		A1123CB71F428A3600D0E3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1123CB51F428A3600D0E3AA /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		A1123CBC1F428A3600D0E3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1123CBA1F428A3600D0E3AA /* LaunchScreen.storyboard */; };
 		A1123CC71F428A3700D0E3AA /* RemotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CC61F428A3700D0E3AA /* RemotifyTests.swift */; };
 		A1123CD21F428A3700D0E3AA /* RemotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CD11F428A3700D0E3AA /* RemotifyUITests.swift */; };
+		A1D0A6F31F428AD000DB79A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1D0A6F21F428AD000DB79A7 /* GoogleService-Info.plist */; };
+		BE39EF90A0F41FB126EF8A48 /* Pods_RemotifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1B9F00EFFEA47575F3E256 /* Pods_RemotifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E55830529118BC99A09FE01 /* Pods-RemotifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemotifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemotifyTests/Pods-RemotifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4FC2A9BBE135753066C25F /* Pods-RemotifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemotifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemotifyTests/Pods-RemotifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C1B9F00EFFEA47575F3E256 /* Pods_RemotifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemotifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E73E8CEFA5F17861BE04613 /* Pods_Remotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1123CAE1F428A3600D0E3AA /* Remotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1123CB11F428A3600D0E3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1123CB31F428A3600D0E3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		A1123CCD1F428A3700D0E3AA /* RemotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1123CD11F428A3700D0E3AA /* RemotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotifyUITests.swift; sourceTree = "<group>"; };
 		A1123CD31F428A3700D0E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D0A6F21F428AD000DB79A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A30A7EC67DC3AC94A064E2B1 /* Pods-RemotifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemotifyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemotifyUITests/Pods-RemotifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BECCD15B0D9DD04243EDB1C2 /* Pods_RemotifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemotifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EFD110B05F719C4E8A23C3 /* Pods-Remotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remotify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Remotify/Pods-Remotify.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE9D366ACBD830663B76654 /* Pods-RemotifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemotifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemotifyUITests/Pods-RemotifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE06ACE273258582B7BA6C76 /* Pods-Remotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remotify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Remotify/Pods-Remotify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728C0A7A25B0400AAA78365F /* Pods_Remotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE39EF90A0F41FB126EF8A48 /* Pods_RemotifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB33D05CC144D35BD8714CF /* Pods_RemotifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B9DA753C8EDC67931F13C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E73E8CEFA5F17861BE04613 /* Pods_Remotify.framework */,
+				7C1B9F00EFFEA47575F3E256 /* Pods_RemotifyTests.framework */,
+				BECCD15B0D9DD04243EDB1C2 /* Pods_RemotifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1123CA51F428A3600D0E3AA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				A1123CC51F428A3700D0E3AA /* RemotifyTests */,
 				A1123CD01F428A3700D0E3AA /* RemotifyUITests */,
 				A1123CAF1F428A3600D0E3AA /* Products */,
+				D0741AFA988CE6658A4D9D96 /* Pods */,
+				8B9DA753C8EDC67931F13C3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +131,7 @@
 				A1123CB51F428A3600D0E3AA /* Main.storyboard */,
 				A1123CB81F428A3600D0E3AA /* Assets.xcassets */,
 				A1123CBA1F428A3600D0E3AA /* LaunchScreen.storyboard */,
+				A1D0A6F21F428AD000DB79A7 /* GoogleService-Info.plist */,
 				A1123CBD1F428A3600D0E3AA /* Info.plist */,
 			);
 			path = Remotify;
@@ -125,6 +155,19 @@
 			path = RemotifyUITests;
 			sourceTree = "<group>";
 		};
+		D0741AFA988CE6658A4D9D96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2EFD110B05F719C4E8A23C3 /* Pods-Remotify.debug.xcconfig */,
+				EE06ACE273258582B7BA6C76 /* Pods-Remotify.release.xcconfig */,
+				1E55830529118BC99A09FE01 /* Pods-RemotifyTests.debug.xcconfig */,
+				6D4FC2A9BBE135753066C25F /* Pods-RemotifyTests.release.xcconfig */,
+				EBE9D366ACBD830663B76654 /* Pods-RemotifyUITests.debug.xcconfig */,
+				A30A7EC67DC3AC94A064E2B1 /* Pods-RemotifyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1123CD61F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "Remotify" */;
 			buildPhases = (
+				63A93DECD6FC25AA73DE9E53 /* [CP] Check Pods Manifest.lock */,
 				A1123CAA1F428A3600D0E3AA /* Sources */,
 				A1123CAB1F428A3600D0E3AA /* Frameworks */,
 				A1123CAC1F428A3600D0E3AA /* Resources */,
+				2B18D2670DC901594C263C70 /* [CP] Embed Pods Frameworks */,
+				8623BE66925A98395E1AC0AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1123CD91F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyTests" */;
 			buildPhases = (
+				72FD5A3F44839763117B24F1 /* [CP] Check Pods Manifest.lock */,
 				A1123CBE1F428A3600D0E3AA /* Sources */,
 				A1123CBF1F428A3600D0E3AA /* Frameworks */,
 				A1123CC01F428A3600D0E3AA /* Resources */,
+				331FF74B7F18D36BF182E6DA /* [CP] Embed Pods Frameworks */,
+				4841EC99A2A796AF55AE4C55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1123CDC1F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyUITests" */;
 			buildPhases = (
+				7E652B2C158EEA8F01B549A4 /* [CP] Check Pods Manifest.lock */,
 				A1123CC91F428A3700D0E3AA /* Sources */,
 				A1123CCA1F428A3700D0E3AA /* Frameworks */,
 				A1123CCB1F428A3700D0E3AA /* Resources */,
+				F24751F1720D7CED65C8A55B /* [CP] Embed Pods Frameworks */,
+				0CEA8BC2B00F46023D2D8430 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D0A6F31F428AD000DB79A7 /* GoogleService-Info.plist in Resources */,
 				A1123CBC1F428A3600D0E3AA /* LaunchScreen.storyboard in Resources */,
 				A1123CB91F428A3600D0E3AA /* Assets.xcassets in Resources */,
 				A1123CB71F428A3600D0E3AA /* Main.storyboard in Resources */,
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEA8BC2B00F46023D2D8430 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemotifyUITests/Pods-RemotifyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B18D2670DC901594C263C70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remotify/Pods-Remotify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		331FF74B7F18D36BF182E6DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemotifyTests/Pods-RemotifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4841EC99A2A796AF55AE4C55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemotifyTests/Pods-RemotifyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A93DECD6FC25AA73DE9E53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72FD5A3F44839763117B24F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E652B2C158EEA8F01B549A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8623BE66925A98395E1AC0AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remotify/Pods-Remotify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24751F1720D7CED65C8A55B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemotifyUITests/Pods-RemotifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1123CAA1F428A3600D0E3AA /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		A1123CD71F428A3700D0E3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EFD110B05F719C4E8A23C3 /* Pods-Remotify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6BTQM7KDP;
@@ -426,6 +618,7 @@
 		};
 		A1123CD81F428A3700D0E3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE06ACE273258582B7BA6C76 /* Pods-Remotify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N6BTQM7KDP;
@@ -439,6 +632,7 @@
 		};
 		A1123CDA1F428A3700D0E3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E55830529118BC99A09FE01 /* Pods-RemotifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		A1123CDB1F428A3700D0E3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4FC2A9BBE135753066C25F /* Pods-RemotifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		A1123CDD1F428A3700D0E3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE9D366ACBD830663B76654 /* Pods-RemotifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N6BTQM7KDP;
@@ -483,6 +679,7 @@
 		};
 		A1123CDE1F428A3700D0E3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30A7EC67DC3AC94A064E2B1 /* Pods-RemotifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N6BTQM7KDP;
@@ -514,6 +711,7 @@
 				A1123CD81F428A3700D0E3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1123CD91F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				A1123CDB1F428A3700D0E3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1123CDC1F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				A1123CDE1F428A3700D0E3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
