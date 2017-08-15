@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1123CB21F428A3600D0E3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CB11F428A3600D0E3AA /* AppDelegate.swift */; };
+		A1123CB41F428A3600D0E3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CB31F428A3600D0E3AA /* ViewController.swift */; };
+		A1123CB71F428A3600D0E3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1123CB51F428A3600D0E3AA /* Main.storyboard */; };
+		A1123CB91F428A3600D0E3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1123CB81F428A3600D0E3AA /* Assets.xcassets */; };
+		A1123CBC1F428A3600D0E3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1123CBA1F428A3600D0E3AA /* LaunchScreen.storyboard */; };
+		A1123CC71F428A3700D0E3AA /* RemotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CC61F428A3700D0E3AA /* RemotifyTests.swift */; };
+		A1123CD21F428A3700D0E3AA /* RemotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1123CD11F428A3700D0E3AA /* RemotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1123CC31F428A3600D0E3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1123CA61F428A3600D0E3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1123CAD1F428A3600D0E3AA;
+			remoteInfo = Remotify;
+		};
+		A1123CCE1F428A3700D0E3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1123CA61F428A3600D0E3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1123CAD1F428A3600D0E3AA;
+			remoteInfo = Remotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1123CAE1F428A3600D0E3AA /* Remotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1123CB11F428A3600D0E3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1123CB31F428A3600D0E3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1123CB61F428A3600D0E3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1123CB81F428A3600D0E3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1123CBB1F428A3600D0E3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1123CBD1F428A3600D0E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1123CC21F428A3600D0E3AA /* RemotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1123CC61F428A3700D0E3AA /* RemotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotifyTests.swift; sourceTree = "<group>"; };
+		A1123CC81F428A3700D0E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1123CCD1F428A3700D0E3AA /* RemotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1123CD11F428A3700D0E3AA /* RemotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotifyUITests.swift; sourceTree = "<group>"; };
+		A1123CD31F428A3700D0E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1123CAB1F428A3600D0E3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CBF1F428A3600D0E3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CCA1F428A3700D0E3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1123CA51F428A3600D0E3AA = {
+			isa = PBXGroup;
+			children = (
+				A1123CB01F428A3600D0E3AA /* Remotify */,
+				A1123CC51F428A3700D0E3AA /* RemotifyTests */,
+				A1123CD01F428A3700D0E3AA /* RemotifyUITests */,
+				A1123CAF1F428A3600D0E3AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1123CAF1F428A3600D0E3AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1123CAE1F428A3600D0E3AA /* Remotify.app */,
+				A1123CC21F428A3600D0E3AA /* RemotifyTests.xctest */,
+				A1123CCD1F428A3700D0E3AA /* RemotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1123CB01F428A3600D0E3AA /* Remotify */ = {
+			isa = PBXGroup;
+			children = (
+				A1123CB11F428A3600D0E3AA /* AppDelegate.swift */,
+				A1123CB31F428A3600D0E3AA /* ViewController.swift */,
+				A1123CB51F428A3600D0E3AA /* Main.storyboard */,
+				A1123CB81F428A3600D0E3AA /* Assets.xcassets */,
+				A1123CBA1F428A3600D0E3AA /* LaunchScreen.storyboard */,
+				A1123CBD1F428A3600D0E3AA /* Info.plist */,
+			);
+			path = Remotify;
+			sourceTree = "<group>";
+		};
+		A1123CC51F428A3700D0E3AA /* RemotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1123CC61F428A3700D0E3AA /* RemotifyTests.swift */,
+				A1123CC81F428A3700D0E3AA /* Info.plist */,
+			);
+			path = RemotifyTests;
+			sourceTree = "<group>";
+		};
+		A1123CD01F428A3700D0E3AA /* RemotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1123CD11F428A3700D0E3AA /* RemotifyUITests.swift */,
+				A1123CD31F428A3700D0E3AA /* Info.plist */,
+			);
+			path = RemotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1123CAD1F428A3600D0E3AA /* Remotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1123CD61F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "Remotify" */;
+			buildPhases = (
+				A1123CAA1F428A3600D0E3AA /* Sources */,
+				A1123CAB1F428A3600D0E3AA /* Frameworks */,
+				A1123CAC1F428A3600D0E3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remotify;
+			productName = Remotify;
+			productReference = A1123CAE1F428A3600D0E3AA /* Remotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1123CC11F428A3600D0E3AA /* RemotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1123CD91F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyTests" */;
+			buildPhases = (
+				A1123CBE1F428A3600D0E3AA /* Sources */,
+				A1123CBF1F428A3600D0E3AA /* Frameworks */,
+				A1123CC01F428A3600D0E3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1123CC41F428A3600D0E3AA /* PBXTargetDependency */,
+			);
+			name = RemotifyTests;
+			productName = RemotifyTests;
+			productReference = A1123CC21F428A3600D0E3AA /* RemotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1123CCC1F428A3700D0E3AA /* RemotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1123CDC1F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyUITests" */;
+			buildPhases = (
+				A1123CC91F428A3700D0E3AA /* Sources */,
+				A1123CCA1F428A3700D0E3AA /* Frameworks */,
+				A1123CCB1F428A3700D0E3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1123CCF1F428A3700D0E3AA /* PBXTargetDependency */,
+			);
+			name = RemotifyUITests;
+			productName = RemotifyUITests;
+			productReference = A1123CCD1F428A3700D0E3AA /* RemotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1123CA61F428A3600D0E3AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Salil Thakur";
+				TargetAttributes = {
+					A1123CAD1F428A3600D0E3AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N6BTQM7KDP;
+						ProvisioningStyle = Automatic;
+					};
+					A1123CC11F428A3600D0E3AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N6BTQM7KDP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1123CAD1F428A3600D0E3AA;
+					};
+					A1123CCC1F428A3700D0E3AA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N6BTQM7KDP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1123CAD1F428A3600D0E3AA;
+					};
+				};
+			};
+			buildConfigurationList = A1123CA91F428A3600D0E3AA /* Build configuration list for PBXProject "Remotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1123CA51F428A3600D0E3AA;
+			productRefGroup = A1123CAF1F428A3600D0E3AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1123CAD1F428A3600D0E3AA /* Remotify */,
+				A1123CC11F428A3600D0E3AA /* RemotifyTests */,
+				A1123CCC1F428A3700D0E3AA /* RemotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1123CAC1F428A3600D0E3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1123CBC1F428A3600D0E3AA /* LaunchScreen.storyboard in Resources */,
+				A1123CB91F428A3600D0E3AA /* Assets.xcassets in Resources */,
+				A1123CB71F428A3600D0E3AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CC01F428A3600D0E3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CCB1F428A3700D0E3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1123CAA1F428A3600D0E3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1123CB41F428A3600D0E3AA /* ViewController.swift in Sources */,
+				A1123CB21F428A3600D0E3AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CBE1F428A3600D0E3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1123CC71F428A3700D0E3AA /* RemotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1123CC91F428A3700D0E3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1123CD21F428A3700D0E3AA /* RemotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1123CC41F428A3600D0E3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1123CAD1F428A3600D0E3AA /* Remotify */;
+			targetProxy = A1123CC31F428A3600D0E3AA /* PBXContainerItemProxy */;
+		};
+		A1123CCF1F428A3700D0E3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1123CAD1F428A3600D0E3AA /* Remotify */;
+			targetProxy = A1123CCE1F428A3700D0E3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1123CB51F428A3600D0E3AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1123CB61F428A3600D0E3AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1123CBA1F428A3600D0E3AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1123CBB1F428A3600D0E3AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1123CD41F428A3700D0E3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1123CD51F428A3700D0E3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1123CD71F428A3700D0E3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = Remotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.Remotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1123CD81F428A3700D0E3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = Remotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.Remotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A1123CDA1F428A3700D0E3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = RemotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.RemotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remotify.app/Remotify";
+			};
+			name = Debug;
+		};
+		A1123CDB1F428A3700D0E3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = RemotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.RemotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remotify.app/Remotify";
+			};
+			name = Release;
+		};
+		A1123CDD1F428A3700D0E3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = RemotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.RemotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remotify;
+			};
+			name = Debug;
+		};
+		A1123CDE1F428A3700D0E3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = N6BTQM7KDP;
+				INFOPLIST_FILE = RemotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.salil.RemotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Remotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1123CA91F428A3600D0E3AA /* Build configuration list for PBXProject "Remotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1123CD41F428A3700D0E3AA /* Debug */,
+				A1123CD51F428A3700D0E3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1123CD61F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "Remotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1123CD71F428A3700D0E3AA /* Debug */,
+				A1123CD81F428A3700D0E3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1123CD91F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1123CDA1F428A3700D0E3AA /* Debug */,
+				A1123CDB1F428A3700D0E3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1123CDC1F428A3700D0E3AA /* Build configuration list for PBXNativeTarget "RemotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1123CDD1F428A3700D0E3AA /* Debug */,
+				A1123CDE1F428A3700D0E3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1123CA61F428A3600D0E3AA /* Project object */;
+}
